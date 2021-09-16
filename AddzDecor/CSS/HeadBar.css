@@ -1,0 +1,25 @@
+body{
+ background-size:cover;
+ background-position:center;
+ box-sizing:border-box;
+ font-family: sans-serif;
+}
+*{
+ padding:0; margin:0; box-sizing:border-box; 
+ }
+#bar{
+	background:rgba(0,100,0); text-align:center; z-index:99;
+}
+#bar ul{
+	display:inline-flex; list-style:none;
+}
+#bar ul li{
+	width:140px; margin:15px; padding:15;
+}
+#bar ul li a{
+	text-decoration:none; color:white;
+}
+#bar ul li:hover{
+ background:#2bab0d; border-radius:3px;
+}
+ 

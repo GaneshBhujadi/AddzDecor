@@ -1,0 +1,34 @@
+<?php
+ session_start();
+ $User=$_POST['User'];
+ $Pass=$_POST['Pass'];
+ $con=mysqli_connect('localhost','root','','AddzDecor');
+ $q="select * from Login where User LIKE BINARY '$User' && Pass LIKE BINARY '$Pass'";
+ $r=mysqli_query($con,$q);
+ $row=mysqli_fetch_array($r);
+ $n=mysqli_num_rows($r);
+ mysqli_close($con);
+ if($n==1)
+ {
+  $_SESSION['login']=$row['FName'];
+  $_SESSION['Contact']=$row['Mob'];
+  if($User=="Admin")
+  {
+   $_SESSION['User']="Admin";
+   header("location:http://localhost/AddzDecor/Home.php");
+  }
+  else if(strpos($User,"@AddzDecor.com")!==false)
+  {
+   $_SESSION['User']="Emp
+   ";
+   header("location:http://localhost/AddzDecor/Home.php");
+  }
+  else
+   header("Location:http://localhost/AddzDecor/Shop.php");
+ }
+ else
+ {
+  $_SESSION['Failed']=1;
+  header("location:http://localhost/AddzDecor/login.php");
+ }
+?>

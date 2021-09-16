@@ -1,0 +1,52 @@
+*{ 
+  margin:0;padding:0;
+ }
+body{
+	 font-family:calibri;
+	 background-image:url("../Images/blake-wisz-Xn5FbEM9564-unsplash.jpg"); 
+	 background-repeat:no-repeat;
+	 background-size: 100% 720px;
+	}
+ a{
+   background:#2c7ac5;
+   padding:10px 20px;
+   border:#d1e8ff 1px solid;
+   color:#FFF;
+   border-radius:4px;
+  }
+.frmUer{
+	     position:relative;
+		 top:180; left:600; 
+	     border:#95bee6 1px solid; 
+		 background:#d1e8ff; 
+		 border-radius:4px; 
+		 max-width:400px; 
+		 padding:20px 30px 30px; 
+		 text-align:center;
+		}
+.btnSubmit{
+	        padding:10px 20px; 
+		    background:#2c7ac5; 
+		    border:#d1e8ff 1px solid; 
+		    color:#FFF;	
+		    border-radius:4px;
+		   }
+#error{
+	   position:relative; 
+	   top:180; left:600; 
+	   border:#95bee6 1px solid;
+	   background:#d1e8ff; 
+	   border-radius:4px; 
+	   max-width:400px; 
+	   height:10; 
+	   padding:10px 30px 30px; 
+	   text-align:center;
+	  }
+.login-input{
+			 border:#CCC 1px solid; 
+			 padding:10px 20px; 
+			 border-radius:4px;
+			}
+.msg{
+	 color:#b12d2d;
+	}

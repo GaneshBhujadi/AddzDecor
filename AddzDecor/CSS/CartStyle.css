@@ -1,0 +1,71 @@
+*{ margin:0px; padding:0px; }
+body { 
+	   font-size: 14px;
+	   background-color: #f1f3f6;
+	   color: #212121;
+	   line-height: 1.4;
+ }
+ #header{
+		margin:15px; 
+		padding:5px;
+		background:rgba(0,100,0);
+		text-align:center;					
+		z-index:99;
+       }
+#header ul{
+		  display:inline-flex;
+		  list-style:none;
+		  color:white;
+		  }
+ #header ul li{
+				 width:140px;
+				 margin:10px;
+				 padding:10;
+			  }
+#header ul li a{
+				text-decoration:none;
+				color:white;
+				}			  
+#view { max-width: 1000px; margin:50; position:relative; top:20; background-color:#fff; }
+#view h2 { padding: 16px 20px; box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 30%); }
+#view img{ border-radius:15px; }
+#view table{margin:40;}
+
+#SaveForLatter { max-width: 1000px;  margin:50; background-color:#fff; }
+#SaveForLatter h2 { padding: 16px 20px; box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 30%); }
+#SaveForLatter img{ border-radius:15px; }
+#SaveForLatter table{margin:40;}
+
+#PriceContainer { 
+  position:absolute; top:175; background-color:#fff; right:30;
+  border-bottom: 1px solid #f0f0f0; font-size: 16px;
+  display: block; font-weight: 500; color: #878787;
+  min-height: 47px; border-radius: 2px 2px 0 0;
+}
+#PriceContainer h3{ padding: 16px 20px; box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 30%); }
+#PriceContainer table{ padding: 13px 24px;}
+#PriceContainer th {text-align:left;}
+#b { background-color:orange; border-radius:15px; color:#ffc; width:200; height:40; }
+#b:hover{background:#2c7ac5; color:white;}
+ #Qtybtn{width:30; height:30; background=color:#ffff;border-color:#ffff; border-radius: 50%;}
+ input[type="number"]{ width:50; text-align:center; background:none; height:40; }
+ #SubmitBtn { border:none; background:none; }
+ #SubmitBtn:hover{ color:blue; }
+#ORDERContainer {
+border-top: 5px solid #f0f0f0;
+text-align: right;
+ background: #fff;
+ padding: 16px 22px;
+ box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 10%);   
+}
+.OrderBtn{
+  padding:10px 20px; 
+  width: auto;
+  background:#fb641b;
+  border:#d1e8ff 1px solid;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  color:#FFF;
+ }
+.OrderBtn:hover{
+		background:#2c7ac5;
+	}
